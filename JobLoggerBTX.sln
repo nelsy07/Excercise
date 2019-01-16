@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLoggerBTX", "JobLoggerBTX\JobLoggerBTX.csproj", "{3117B69D-CC51-4B93-A5D0-C30D2BE4CE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLoggerBTX.Tests", "JobLoggerBTX.Tests\JobLoggerBTX.Tests.csproj", "{B53A9849-C6E1-4CB3-9C1E-EFE4E7861894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3117B69D-CC51-4B93-A5D0-C30D2BE4CE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3117B69D-CC51-4B93-A5D0-C30D2BE4CE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3117B69D-CC51-4B93-A5D0-C30D2BE4CE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3117B69D-CC51-4B93-A5D0-C30D2BE4CE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53A9849-C6E1-4CB3-9C1E-EFE4E7861894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53A9849-C6E1-4CB3-9C1E-EFE4E7861894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53A9849-C6E1-4CB3-9C1E-EFE4E7861894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53A9849-C6E1-4CB3-9C1E-EFE4E7861894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09177E5C-38CF-4338-8791-175E20FD8273}
+	EndGlobalSection
+EndGlobal
