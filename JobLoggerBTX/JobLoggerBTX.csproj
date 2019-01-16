@@ -98,6 +98,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\ConsoleLogger.cs" />
+    <Compile Include="Helper\DatabaseLogger.cs" />
+    <Compile Include="Helper\FileLogger.cs" />
+    <Compile Include="Models\ILog.cs" />
+    <Compile Include="Helper\JobLogger.cs" />
+    <Compile Include="Models\LogLevel.cs" />
+    <Compile Include="Models\LogType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -112,7 +119,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\JobLogger\" />
   </ItemGroup>

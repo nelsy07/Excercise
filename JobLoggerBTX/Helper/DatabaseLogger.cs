@@ -1,11 +1,12 @@
-﻿using System;
+﻿using JobLoggerBTX.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
-namespace JobLoggerBTX.Models
+namespace JobLoggerBTX.Helper
 {
     public class DatabaseLogger
     {
