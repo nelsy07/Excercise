@@ -101,6 +101,7 @@
     <Compile Include="Helper\ConsoleLogger.cs" />
     <Compile Include="Helper\DatabaseLogger.cs" />
     <Compile Include="Helper\FileLogger.cs" />
+    <Compile Include="Helper\JobLoggerOld.cs" />
     <Compile Include="Models\ILog.cs" />
     <Compile Include="Helper\JobLogger.cs" />
     <Compile Include="Models\LogLevel.cs" />
