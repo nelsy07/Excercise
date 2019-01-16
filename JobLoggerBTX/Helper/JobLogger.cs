@@ -19,11 +19,16 @@ namespace JobLoggerBTX.Helper
         {
             _logType = ConfigurationManager.AppSettings["LogType"].Split(',');
             _levels = ConfigurationManager.AppSettings["LogLevels"].Split(',');
+
+            if(_logType.Length == 0 || _levels.Length == 0)
+            {
+                throw new Exception("Se debe configurar el uso de Logs en el web.config.");
+            }
         }
 
         public void Log()
         {
-            throw new NotImplementedException();
+            throw new Exception("Método inválido.");
         }
 
         public void Log(LogLevel level, string message)
